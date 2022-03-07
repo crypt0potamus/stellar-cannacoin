@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin/ajax.php:12
-msgid "StellarCannaCoin address is not valid. It should have exactly 64 characters."
+msgid "StellarCannaCoin address is not valid. It should have exactly 56 characters."
 msgstr ""
 
 #: admin/ajax.php:16

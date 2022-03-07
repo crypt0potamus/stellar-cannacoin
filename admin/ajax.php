@@ -8,6 +8,12 @@ function scc_validate_address() {
 
 	$address = sanitize_text_field( $_POST['address'] );
 
+
+	if ( 56 !== strlen( $address ) ) {
+		wp_send_json_error(__('StellarCannaCoin address is not valid. It should have exactly 56 characters.', 'stellar-cannacoin'));
+	}
+
+
 	if ( 0 !== strpos( $address, 'G' ) ) {
 		wp_send_json_error(__('StellarCannaCoin address is not valid. It should start with <code>G</code>.', 'stellar-cannacoin'));
 	}
