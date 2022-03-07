@@ -15,34 +15,34 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin/ajax.php:12
+#: admin/ajax.php:13
 msgid "StellarCannaCoin address is not valid. It should have exactly 56 characters."
 msgstr ""
 
-#: admin/ajax.php:16
+#: admin/ajax.php:18
 msgid "StellarCannaCoin address is not valid. It should start with <code>G</code>."
 msgstr ""
 
-#: admin/ajax.php:21
+#: admin/ajax.php:23
 msgid "Saved!"
 msgstr ""
 
-#: admin/class-init.php:38, admin/class-init.php:39, admin/class-init.php:57, includes/class-stellar-cannacoin-widget.php:12
+#: admin/class-init.php:38, admin/class-init.php:39, admin/class-init.php:784, includes/class-stellar-cannacoin-widget.php:12
 msgid "Stellar CannaCoin"
 msgstr ""
 
-#: admin/class-init.php:59
-msgid "Unofficial StellarCannaCoin plugin for WordPress."
+#: admin/class-init.php:786
+msgid "Official StellarCannaCoin plugin for WordPress."
 msgstr ""
 
-#: admin/class-init.php:60
+#: admin/class-init.php:787
 msgid "Use the following shortcode to display donation QR code. If you are using Elemntor, use the Elementor widget."
 msgstr ""
 
-#: admin/class-init.php:66
+#: admin/class-init.php:793
 msgid "StellarCannaCoin address:"
 msgstr ""
 
-#: admin/class-init.php:71
+#: admin/class-init.php:798
 msgid "Save"
 msgstr ""

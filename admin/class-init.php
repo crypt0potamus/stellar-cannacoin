@@ -783,7 +783,7 @@ class Init {
 				<span class="scc-admin-title">
 					<h1><?php esc_html_e( 'Stellar CannaCoin', 'stellar-cannacoin' ); ?></h1>
 				</span>
-				<p><?php esc_html_e( 'Unofficial StellarCannaCoin plugin for WordPress.', 'stellar-cannacoin' ); ?></p>
+				<p><?php esc_html_e( 'Official StellarCannaCoin plugin for WordPress.', 'stellar-cannacoin' ); ?></p>
 				<p><?php esc_html_e( 'Use the following shortcode to display donation QR code. If you are using Elemntor, use the Elementor widget.', 'stellar-cannacoin' ); ?><code>[stellar_cannacoin]</code></p>
 				<br>
 			</div>
