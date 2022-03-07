@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
           messageArea.style.color = 'green';
           let img = document.createElement('img');
-          img.id = 'scc-identicon';
+          img.id = 'scc-indicator';
           img.src = 'https://id.lobstr.co/' + address;
           document.getElementById('scc-message-area').insertAdjacentElement('beforeBegin', img)
         }

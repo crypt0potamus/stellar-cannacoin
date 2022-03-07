@@ -5,7 +5,7 @@
  * Description: ‌Generate link and QR image to receive StellarCannaCoin donation.
  * Version:     1.0.0
  * Author:      crypt0potamus
- * Author URI:      https://github.com/crypt0potamus
+ * Author URI:      https://farahani.dev
  * Text Domain: stellar-cannacoin
  * Domain Path: /languages
  * License:     GPLv3

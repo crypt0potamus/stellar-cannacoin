@@ -20,10 +20,10 @@ Generate link and QR image to receive StellarCannaCoin donation. This is NOT off
 Follow the usual routine;
 
 1. Open WordPress admin, go to Plugins, click Add New
-2. Enter "monkey treat" in search and hit Enter
+2. Enter "stellar cannacoin" in search and hit Enter
 3. click "Install Now" and activate the plugin.
-4. Go to Settings > Stellar CannaCoin and enter your banano wallet address.
-5. Double check the address with your monkey image.
+4. Go to Settings > Stellar CannaCoin and enter your lobstr wallet address.
+5. Double check the address with your lobstr image.
 6. Use `['stellar_cannacoin']` shortcode to show the QR code on the website.
 
 == Screenshots ==
@@ -38,7 +38,7 @@ No! This plugin is generating a QR code and link to your public wallet address. 
 
 = How can I find my wallet address? =
 
-You can use https://vault.banano.cc/ to get a StellarCannaCoin wallet. Also any other StellarCannaCoin wallet is supported.
+You can use https://id.lobstr.co/ to get a StellarCannaCoin wallet. Also any other StellarCannaCoin wallet is supported.
 
 
 == Changelog ==

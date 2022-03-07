@@ -2,7 +2,7 @@
 
 namespace Stellar_CannaCoin\Includes;
 
-class Stellar_CannaCoin_Widget extends \Elementor\Widget_Base {
+class Monkey_Treat_Widget extends \Elementor\Widget_Base {
 
 	public function get_name() {
 		return 'stellar-cannacoin';

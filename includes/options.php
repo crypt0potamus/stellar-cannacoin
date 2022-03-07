@@ -1,12 +1,12 @@
 <?php
 
 function mtrt_get_option( string $option, $default = null ) {
-	$options = get_option( 'mtrt_config', array() );
+	$options = get_option( 'mtrt_config_scc', array() );
 	return $options[ $option ] ?? $default;
 }
 
 function mtrt_update_option( $option, $new_value ) {
-	$config            = get_option( 'mtrt_config', array() );
+	$config            = get_option( 'mtrt_config_scc', array() );
 	$config[ $option ] = $new_value;
-	return update_option( 'mtrt_config', $config );
+	return update_option( 'mtrt_config_scc', $config );
 }

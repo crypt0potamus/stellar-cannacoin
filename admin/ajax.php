@@ -8,8 +8,8 @@ function mtrt_validate_address() {
 
 	$address = sanitize_text_field( $_POST['address'] );
 
-	if ( 0 !== strpos( $address, 'ban_' ) ) {
-		wp_send_json_error(__('StellarCannaCoin address is not valid. It should start with <code>ban_</code>.', 'stellar-cannacoin'));
+	if ( 0 !== strpos( $address, 'G' ) ) {
+		wp_send_json_error(__('StellarCannaCoin address is not valid. It should start with <code>G</code>.', 'stellar-cannacoin'));
 	}
 
 	mtrt_update_option( '_stellar_cannacoin_address', $address );

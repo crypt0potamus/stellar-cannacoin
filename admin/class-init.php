@@ -62,15 +62,15 @@ class Init {
 			</div>
 			<div class="mtrt-admin-main">
 				<section class="mtrt-settings">
-					<label for="ban_address">
+					<label for="scc_address">
 						<?php _e( 'StellarCannaCoin address:', 'stellar-cannacoin' ); ?>
 					</label>
 					<br>
-					<input type="text" id="scc-address" name="ban_address" placeholder="ban_" size="64" pattern="[a-z0-9]{64}" value="<?php echo esc_attr( mtrt_get_option( '_stellar_cannacoin_address' ) ); ?>">
+					<input type="text" id="scc-address" name="scc_address" placeholder="G" size="64" pattern="[a-z0-9]{64}" value="<?php echo esc_attr( mtrt_get_option( '_stellar_cannacoin_address' ) ); ?>">
 					<?php wp_nonce_field( 'mtrt_save_settings' ); ?>
 					<input type="submit" id="save_scc_address" name="save_scc_address" value="<?php esc_attr_e( 'Save', 'stellar-cannacoin' ); ?>">
 					<?php if ( mtrt_get_option( '_stellar_cannacoin_address' ) ) : ?>
-					<img id="scc-identicon" src="<?php echo esc_attr( esc_url( 'https://id.lobstr.co/' . mtrt_get_option( '_stellar_cannacoin_address' ) . 'png' ) ); ?>">
+					<img id="scc-indicator" src="<?php echo esc_attr( esc_url( 'https://id.lobstr.co/' . mtrt_get_option( '_stellar_cannacoin_address' ) . 'png' ) ); ?>">
 					<?php endif; ?>
 					<div id="scc-message-area"></div>
 				</section>

@@ -51,6 +51,6 @@ final class Elementor {
 		require_once __DIR__ . '/class-stellar-cannacoin-widget.php';
 
 		// Register widget
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Stellar_CannaCoin_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Monkey_Treat_Widget() );
 	}
 }
