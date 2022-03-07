@@ -784,7 +784,7 @@ class Init {
 					<h1><?php esc_html_e( 'Stellar CannaCoin', 'stellar-cannacoin' ); ?></h1>
 				</span>
 				<p><?php esc_html_e( 'Official StellarCannaCoin plugin for WordPress.', 'stellar-cannacoin' ); ?></p>
-				<p><?php esc_html_e( 'Use the following shortcode to display donation QR code. If you are using Elemntor, use the Elementor widget.', 'stellar-cannacoin' ); ?><code>[stellar_cannacoin]</code></p>
+				<p><?php esc_html_e( 'Use the following shortcode to display donation QR code. If you are using Elementor, use the Elementor widget.', 'stellar-cannacoin' ); ?><code>[stellar_cannacoin]</code></p>
 				<br>
 			</div>
 			<div class="scc-admin-main">
@@ -793,7 +793,7 @@ class Init {
 						<?php _e( 'StellarCannaCoin address:', 'stellar-cannacoin' ); ?>
 					</label>
 					<br>
-					<input type="text" id="scc-address" name="scc_address" placeholder="G" size="64" pattern="[a-z0-9]{64}" value="<?php echo esc_attr( scc_get_option( '_stellar_cannacoin_address' ) ); ?>">
+					<input type="text" id="scc-address" name="scc_address" placeholder="G" size="56" pattern="[a-z0-9]{56}" value="<?php echo esc_attr( scc_get_option( '_stellar_cannacoin_address' ) ); ?>">
 					<?php wp_nonce_field( 'scc_save_settings' ); ?>
 					<input type="submit" id="save_scc_address" name="save_scc_address" value="<?php esc_attr_e( 'Save', 'stellar-cannacoin' ); ?>">
 					<?php if ( scc_get_option( '_stellar_cannacoin_address' ) ) : ?>

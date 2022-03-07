@@ -2,15 +2,15 @@
 
 namespace Stellar_CannaCoin;
 
-define( 'MTRT_PATH', plugin_dir_path( __FILE__ ) );
-define( 'MTRT_URL', plugin_dir_url( __FILE__ ) );
+define( 'SCC_PATH', plugin_dir_path( __FILE__ ) );
+define( 'SCC_URL', plugin_dir_url( __FILE__ ) );
 
-define( 'MTRT_VERSION', '1.0.0' );
-define( 'MTRT_SLUG', 'stellar_cannacoin' ); // snake_case
+define( 'SCC_VERSION', '1.0.0' );
+define( 'SCC_SLUG', 'stellar_cannacoin' ); // snake_case
 
-define( 'MTRT_ADMIN_PATH', MTRT_PATH . 'admin/' );
-define( 'MTRT_ADMIN_URL', MTRT_URL . 'admin/' );
+define( 'SCC_ADMIN_PATH', SCC_PATH . 'admin/' );
+define( 'SCC_ADMIN_URL', SCC_URL . 'admin/' );
 
-define( 'MTRT_FRONT_ASSETS', MTRT_URL . 'front/assets/dist/' );
-define( 'MTRT_IMG_ASSETS', MTRT_URL . 'front/assets/img/' );
-define( 'MTRT_ADMIN_ASSETS', MTRT_ADMIN_URL . 'assets/dist/' );
+define( 'SCC_FRONT_ASSETS', SCC_URL . 'front/assets/dist/' );
+define( 'SCC_IMG_ASSETS', SCC_URL . 'front/assets/img/' );
+define( 'SCC_ADMIN_ASSETS', SCC_ADMIN_URL . 'assets/dist/' );

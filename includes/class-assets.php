@@ -38,11 +38,11 @@ class Assets {
 	}
 
 	public function register_front_scripts() {
-		wp_register_script( 'scc-front', MTRT_FRONT_ASSETS . 'js/scc-front' . $this->suffix . '.js', array( 'jquery' ), MTRT_VERSION, true );
+		wp_register_script( 'scc-front', SCC_FRONT_ASSETS . 'js/scc-front' . $this->suffix . '.js', array( 'jquery' ), SCC_VERSION, true );
 	}
 
 	public function register_front_styles() {
-		wp_register_style( 'scc-front', MTRT_FRONT_ASSETS . 'css/scc-front' . $this->suffix . '.css', array(), MTRT_VERSION, 'all' );
+		wp_register_style( 'scc-front', SCC_FRONT_ASSETS . 'css/scc-front' . $this->suffix . '.css', array(), SCC_VERSION, 'all' );
 	}
 
 	public function register_admin_assets() {
@@ -51,11 +51,11 @@ class Assets {
 	}
 
 	public function register_admin_scripts() {
-		wp_register_script( 'scc-admin', MTRT_ADMIN_ASSETS . 'js/scc-admin' . $this->suffix . '.js', MTRT_VERSION, true );
+		wp_register_script( 'scc-admin', SCC_ADMIN_ASSETS . 'js/scc-admin' . $this->suffix . '.js', SCC_VERSION, true );
 	}
 
 	public function register_admin_styles() {
-		wp_register_style( 'scc-admin', MTRT_ADMIN_ASSETS . 'css/scc-admin' . $this->suffix . '.css', array(), MTRT_VERSION, 'all' );
+		wp_register_style( 'scc-admin', SCC_ADMIN_ASSETS . 'css/scc-admin' . $this->suffix . '.css', array(), SCC_VERSION, 'all' );
 	}
 
 	public function localize() {

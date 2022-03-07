@@ -36,7 +36,7 @@ msgid "Official StellarCannaCoin plugin for WordPress."
 msgstr ""
 
 #: admin/class-init.php:787
-msgid "Use the following shortcode to display donation QR code. If you are using Elemntor, use the Elementor widget."
+msgid "Use the following shortcode to display donation QR code. If you are using Elementor, use the Elementor widget."
 msgstr ""
 
 #: admin/class-init.php:793
