@@ -70,7 +70,7 @@ class Init {
 					<?php wp_nonce_field( 'mtrt_save_settings' ); ?>
 					<input type="submit" id="save_scc_address" name="save_scc_address" value="<?php esc_attr_e( 'Save', 'stellar-cannacoin' ); ?>">
 					<?php if ( mtrt_get_option( '_stellar_cannacoin_address' ) ) : ?>
-					<img id="scc-indicator" src="<?php echo esc_attr( esc_url( 'https://id.lobstr.co/' . mtrt_get_option( '_stellar_cannacoin_address' ) . 'png' ) ); ?>">
+					<img id="scc-indicator" src="<?php echo esc_attr( esc_url( 'https://id.lobstr.co/' . mtrt_get_option( '_stellar_cannacoin_address' ) . '.png' ) ); ?>">
 					<?php endif; ?>
 					<div id="scc-message-area"></div>
 				</section>

@@ -13,7 +13,7 @@ Generate link and QR image to receive StellarCannaCoin donation.
 
 == Description ==
 
-Generate link and QR image to receive StellarCannaCoin donation. This is NOT official plugin of StellarCannaCoin and It is a community project made by love for StellarCannaCoin.
+Generate link and QR image to receive StellarCannaCoin donation. This is the official plugin of StellarCannaCoin and It is a community project made by love for StellarCannaCoin.
 
 == Installation ==
 
