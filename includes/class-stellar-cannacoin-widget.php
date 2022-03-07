@@ -23,7 +23,7 @@ class Monkey_Treat_Widget extends \Elementor\Widget_Base {
 	protected function _register_controls() {}
 
 	protected function render() {
-		echo mtrt_get_QR_code();
+		echo scc_get_QR_code();
 	}
 
 }

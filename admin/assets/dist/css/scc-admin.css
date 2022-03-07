@@ -1,9 +1,9 @@
-.mtrt-admin-wrapper .mtrt-logo,
-.mtrt-admin-wrapper .mtrt-admin-title h1 {
+.scc-admin-wrapper .scc-logo,
+.scc-admin-wrapper .scc-admin-title h1 {
   display: inline-block;
   vertical-align: middle;
 }
-.mtrt-admin-wrapper #scc-indicator {
+.scc-admin-wrapper #scc-indicator {
   width: 100px;
   height: auto;
   display: inline-block;

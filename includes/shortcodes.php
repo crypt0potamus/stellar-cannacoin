@@ -1,7 +1,7 @@
 <?php
 
-function mtrt_shortcode(){
-	return mtrt_get_QR_code();
+function scc_shortcode(){
+	return scc_get_QR_code();
 }
 
-add_shortcode('stellar_cannacoin', 'mtrt_shortcode');
+add_shortcode('stellar_cannacoin', 'scc_shortcode');

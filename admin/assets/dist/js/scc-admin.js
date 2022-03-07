@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var address = document.getElementById('scc-address').value;
     var nonce = document.getElementById('_wpnonce').value;
     var formData = new FormData();
-    formData.append('action', 'mtrt_validate_address');
+    formData.append('action', 'scc_validate_address');
     formData.append('nonce', nonce);
     formData.append('address', address);
     fetch(ajaxurl, {
